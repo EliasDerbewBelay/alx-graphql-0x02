@@ -1,4 +1,4 @@
-import { EpisodeProps } from "@/interface";
+import { EpisodeProps } from "@/interfaces";
 import { useState, useEffect } from "react";
 import { GET_EPISODES } from "@/graphql/queries";
 import { useQuery } from "@apollo/client/react";
